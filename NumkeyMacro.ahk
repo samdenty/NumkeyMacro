@@ -10,100 +10,118 @@ Numpad1::
 	GetInput(1)
 return
 NumpadEnd::
-	blinkScroll()
+	SetScrollLockState, On
+	SetKeyDelay, interval
 	send %1%
+	sleep 10
+	SetScrollLockState, Off
 return
 
 Numpad2::
 	GetInput(2)
 return
 NumpadDown::
-	blinkScroll()
+	SetScrollLockState, On
+	SetKeyDelay, interval
 	send %2%
+	sleep 10
+	SetScrollLockState, Off
 return
 
 Numpad3::
 	GetInput(3)
 return
 NumpadPgDn::
-	blinkScroll()
+	SetScrollLockState, On
+	SetKeyDelay, interval
 	send %3%
+	sleep 10
+	SetScrollLockState, Off
 return
 
 Numpad4::
 	GetInput(4)
 return
 NumpadLeft::
-	blinkScroll()
+	SetScrollLockState, On
+	SetKeyDelay, interval
 	send %4%
+	sleep 10
+	SetScrollLockState, Off
 return
 
 Numpad5::
 	GetInput(5)
 return
 NumpadClear::
-	blinkScroll()
+	SetScrollLockState, On
+	SetKeyDelay, interval
 	send %5%
+	sleep 10
+	SetScrollLockState, Off
 return
 
 Numpad6::
 	GetInput(6)
 return
 NumpadRight::
-	blinkScroll()
+	SetScrollLockState, On
+	SetKeyDelay, interval
 	send %6%
+	sleep 10
+	SetScrollLockState, Off
 return
 
 Numpad7::
 	RecordMacro(7)
 return
 NumpadHome::
-	blinkScroll()
+	SetScrollLockState, On
 	SetNumlockState, on
 	RunWait, %comspec% /c "macros.bat p 7", , Hide
-	SetNumlockState, off
+	SetScrollLockState, off
 return
 
 Numpad8::
 	RecordMacro(8)
 return
 NumpadUp::
-	blinkScroll()
+	SetScrollLockState, On
 	SetNumlockState, on
 	RunWait, %comspec% /c "macros.bat p 8", , Hide
-	SetNumlockState, off
+	SetScrollLockState, off
 return
 
 Numpad9::
 	RecordMacro(9)
 return
 NumpadPgUp::
-	blinkScroll()
+	SetScrollLockState, On
 	SetNumlockState, on
 	RunWait, %comspec% /c "macros.bat p 9", , Hide
-	SetNumlockState, off
+	SetScrollLockState, off
 return
 
 NumpadDot::
 	RecordMacro(10)
 return
 NumpadDel::
-	blinkScroll()
+	SetScrollLockState, On
 	SetNumlockState, on
 	RunWait, %comspec% /c "macros.bat p 10", , Hide
-	SetNumlockState, off
+	SetScrollLockState, off
 return
 
 NumpadAdd::
 
-	if interval < 1000
+	if interval < 500
 	{
 		SetNumlockState, off
 		sleep 5
 		SetNumlockState, on
 		sleep 60
 		SetNumlockState, off
-		interval += 50
+		interval += 25
 		HideTrayTip()
 		if interval = 1000
 		{
@@ -119,14 +137,14 @@ NumpadAdd::
 return
 
 NumpadSub::
-	if interval >= 50
+	if interval >= 25
 	{
 		SetNumlockState, off
 		sleep 5
 		SetNumlockState, on
 		sleep 60
 		SetNumlockState, off
-		interval -= 50
+		interval -= 25
 		HideTrayTip()
 		if interval = 0
 			TrayTip, NumKeyMacro, Key interval: %interval% (Minimum)
