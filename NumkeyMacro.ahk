@@ -77,9 +77,9 @@ Numpad7::
 return
 NumpadHome::
 	SetScrollLockState, On
-	SetNumlockState, on
 	RunWait, %comspec% /c "macros.bat p 7", , Hide
 	SetScrollLockState, off
+	SetNumLockState, Off
 return
 
 Numpad8::
@@ -87,9 +87,9 @@ Numpad8::
 return
 NumpadUp::
 	SetScrollLockState, On
-	SetNumlockState, on
 	RunWait, %comspec% /c "macros.bat p 8", , Hide
 	SetScrollLockState, off
+	SetNumLockState, Off
 return
 
 Numpad9::
@@ -97,9 +97,9 @@ Numpad9::
 return
 NumpadPgUp::
 	SetScrollLockState, On
-	SetNumlockState, on
 	RunWait, %comspec% /c "macros.bat p 9", , Hide
 	SetScrollLockState, off
+	SetNumLockState, Off
 return
 
 NumpadDot::
@@ -107,9 +107,9 @@ NumpadDot::
 return
 NumpadDel::
 	SetScrollLockState, On
-	SetNumlockState, on
 	RunWait, %comspec% /c "macros.bat p 10", , Hide
 	SetScrollLockState, off
+	SetNumLockState, Off
 return
 
 NumpadAdd::
