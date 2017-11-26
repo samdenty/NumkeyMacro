@@ -15,7 +15,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "numkeymacro": "nodemon index.js"
+    "numkeymacro": "nodemon --config nodemon.config.json index.js"
   },
   "author": "",
   "license": "ISC"
