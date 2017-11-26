@@ -1,4 +1,33 @@
-<div id="main-wrap"><div class="container"><div id="wsite-content" class="wsite-elements wsite-not-footer"><span class='imgPusher' style='float:left;height:0px'></span><span style='display:table;width:189px;position:relative;float:left;max-width:100%;clear:left;margin-top:0;*margin-top:0'><a><img src="http://mirum.weebly.com/uploads/2/9/4/0/29401727/published/numkeymacro.png?1483750185" style="margin-top:5px;margin-bottom:10px;margin-left:0;margin-right:10px;border-width:1px;padding:3px;max-width:100%" alt="Picture" class="galleryImageBorder wsite-image" /></a><span style="display:table-caption;caption-side:bottom;font-size:90%;margin-top:-10px;margin-bottom:10px;text-align:center" class="wsite-caption"></span></span><div class="paragraph" style="display:block">
-	<p>A simple AutoHotKey script that hooks onto the numpad keys, turning them into macro keys </p>
-	<p>LIMITATIONS: </p>
-	<ul><li>Cannot detect key combinations eg. CTRL-C, WIN-R ...</li><li>Cannot reproduce interval between keys when played back</li></ul></div><hr style="width:100%;clear:both;visibility:hidden"></hr><div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px"><table class="wsite-multicol-table"><tbody class="wsite-multicol-tbody"><tr class="wsite-multicol-tr"><td class="wsite-multicol-col" style="width:17.522935779817%;padding:0 15px"><div><div class="wsite-image wsite-image-border-none" style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center"><a><img src="http://mirum.weebly.com/uploads/2/9/4/0/29401727/published/numlock.jpeg?1483747988" alt="Picture" style="width:auto;max-width:100%" /></a><div style="display:block;font-size:90%"></div></div></div></td><td class="wsite-multicol-col" style="width:82.477064220183%;padding:0 15px"><div class="paragraph"><strong><font size="5">To record a macro</font></strong><ol><li>Press the NUMLOCK key (see picture).</li><li>Next, select a key <span>from 0</span><span>-9 in the numpad area</span>&nbsp;you want to use as a Macro key.&nbsp;Once you've pressed it, the LED indicator should blink rapidly 5 times indicating that the keyboard has began recording</li><li>Now enter what you want the Macro key to do on the keyboard, in this example I will type 'hello world 123' .</li><li>Once you are done recording the macro, press the Numlock key again, and the LED indicator&nbsp;will blink twice.</li></ol><strong><font size="5">To play back a macro</font></strong><ol><li>Record a macro if you have not yet done so</li><li>Press the macro key you programmed and it will be replayed on your keyboard</li></ol></div></td></tr></tbody></table></div></div></div><div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px"><table class="wsite-multicol-table"><tbody class="wsite-multicol-tbody"></tbody></table></div></div></div>
+<p align="center">
+  <a href="https://github.com/samdenty99/NumKeyMacro">
+    <img src="https://raw.githubusercontent.com/samdenty99/NumKeyMacro/master/assets/NumKeyMacro.png" width="100">
+  </a>
+
+  <h3 align="center">NumkeyMacro</h3>
+
+  <p align="center">
+    Turning the numpad into native macro keys, with extra features for <a href="https://www.npmjs.com/package/cue-sdk-node">CUE SDK enabled keyboards</a>
+    <br>
+    <b><a href="">Demo</a> | <a href="https://samdenty99.github.io/r?https://discord.gg/yN2x7sp">Discord</a> | <a href="https://samdenty99.github.io/r?https://github.com/samdenty99/NumkeyMacro/wiki">Browse the docs</a>
+    <br>
+    <br>
+	<a href="https://samdenty99.github.io/r?https://discord.gg/yN2x7sp">
+		<img src="https://img.shields.io/travis/samdenty99/Wi-PWN.svg?colorB=0082ff&style=flat">
+	</a>
+	<a href="https://samdenty99.github.io/r?https://discord.gg/yN2x7sp">
+		<img src="https://img.shields.io/discord/335836376031428618.svg?colorB=0082ff&style=flat">
+	</a>
+	<a href="https://samdenty99.github.io/r?http://www.somsubhra.com/github-release-stats/?username=samdenty99&repository=NumkeyMacro">
+		<img src="https://img.shields.io/github/downloads/samdenty99/NumkeyMacro/total.svg?colorB=437FB9&style=flat">
+	</a>
+	<a href="https://samdenty99.github.io/r?https://github.com/samdenty99/NumKeyMacro/subscription">
+    		<img src="https://img.shields.io/github/watchers/samdenty99/NumKeyMacro.svg?style=social&label=Watch&style=flat">
+	</a>
+	<a href="https://samdenty99.github.io/r?https://github.com/samdenty99/NumKeyMacro">
+		<img src="https://img.shields.io/github/stars/samdenty99/NumKeyMacro.svg?style=social&label=Star&style=flat">
+	</a>
+	<a href="https://samdenty99.github.io/r?https://github.com/samdenty99/NumKeyMacro/fork">
+		<img src="https://img.shields.io/github/forks/samdenty99/NumKeyMacro.svg?style=social&label=Fork&style=flat">
+	</a>
+</p>
+<h2></h2>
