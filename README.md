@@ -41,7 +41,7 @@ This will allow NumkeyMacro to autostart on boot
 4. Double click the EXE once copied and you can start using it
 
 ### Running locally
-If you'd prefer to run NumkeyMacro directly from the source code instead, follow these steps.
+If you'd prefer to run NumkeyMacro directly from the source code instead, follow these steps:
 ### Prerequisites
 ```
 AutoHotkey
@@ -57,6 +57,8 @@ npm run numkeymacro node index.js
 start NumkeyMacro.ahk
 ```
 
+<h2></h2>
+
 ## Corsair keyboards
 
 Thanks to [Yannicked/node-cue-sdk](https://github.com/Yannicked/node-cue-sdk), NumkeyMacro has full **customizable** RGB support 
@@ -67,10 +69,15 @@ Thanks to [Yannicked/node-cue-sdk](https://github.com/Yannicked/node-cue-sdk), N
 | Playback a macro | Simply hit the numpad number you recorded the macro on (<kbd>NUM LOCK</kbd> should be off) |
 | Change the led colors | Open the `src|CUE-SDK/config.json` in a text editor and modify the [RGB array values](https://www.w3schools.com/colors/colors_picker.asp) |
 
-<h2></h2>
-
 ## Regular keyboards
 
-<h2></h2>
+| Action | How to |
+| --- | --- |
+| Record a macro | <ol><li>Press the <kbd>NUM LOCK</kbd> key</li><li>Press any key from 1-9 on the numpad <ol><li>Numbers 7-9 record the **mouse, delays, keystrokes and key combinations**</li><li>Numbers 1-6 **only record the keystrokes**</li></ol></li></ol>|
+| Playback a macro | Simply hit the numpad number you recorded the macro on (<kbd>NUM LOCK</kbd> should be off) |
 
-#### Can I still use ALT-CODES?
+---
+
+## FAQ
+### Can I still use ALT-CODES?
+Yes! Autohotkey doesn't break any existing key-combinations
