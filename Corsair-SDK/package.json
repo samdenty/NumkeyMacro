@@ -1,0 +1,22 @@
+{
+  "name": "corsair-notifications",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "corsair-rgb": "^0.2.0",
+    "cue-sdk-node": "^1.2.1",
+    "node-watch": "^0.5.5",
+    "watchjs": "0.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "numkeymacro": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

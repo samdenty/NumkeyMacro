@@ -1,0 +1,48 @@
+{
+    "macroKeys": [
+        "Keypad0",
+        "Keypad1",
+        "Keypad2",
+        "Keypad3",
+        "Keypad4",
+        "Keypad5",
+        "Keypad6",
+        "Keypad7",
+        "Keypad8",
+        "Keypad9"
+    ],
+    "colors": {
+        "record": {
+            "set": {
+                "enabled": true,
+                "color": [255, 0, 0]
+            },
+            "unset": {
+                "enabled": true,
+                "color": [0, 255, 233]
+            },
+            "border": {
+                "enabled": true,
+                "color": [255, 0, 0]
+            }
+        },
+        "recording": {
+            "enabled": true,
+            "color": [255, 0, 0]
+        },
+        "playback": {
+            "set": {
+                "enabled": true,
+                "color": [0, 255, 0]
+            },
+            "unset": {
+                "enabled": false,
+                "color": [255, 0, 0]
+            }
+        },
+        "playing": {
+            "enabled": true,
+            "color": [0, 255, 0]
+        }
+    }
+}

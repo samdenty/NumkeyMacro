@@ -1,0 +1,32 @@
+{
+    "Keypad0": {
+        "file": "0.mcr"
+    },
+    "Keypad1": {
+        "file": "1.mcr"
+    },
+    "Keypad2": {
+        "file": "2.mcr"
+    },
+    "Keypad3": {
+        "file": "3.mcr"
+    },
+    "Keypad4": {
+        "file": "4.mcr"
+    },
+    "Keypad5": {
+        "file": "5.mcr"
+    },
+    "Keypad6": {
+        "file": "6.mcr"
+    },
+    "Keypad7": {
+        "file": "7.mcr"
+    },
+    "Keypad8": {
+        "file": "8.mcr"
+    },
+    "Keypad9": {
+        "file": "9.mcr"
+    }
+}
