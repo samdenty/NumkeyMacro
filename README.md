@@ -81,3 +81,5 @@ Thanks to [Yannicked/node-cue-sdk](https://github.com/Yannicked/node-cue-sdk), N
 ## FAQ
 ### Can I still use ALT-CODES?
 Yes! Autohotkey doesn't break any existing key-combinations
+
+[![Analytics](https://ga-beacon.appspot.com/UA-85426772-5/NumkeyMacro/?pixel)](https://github.com/igrigorik/ga-beacon)
